@@ -1,0 +1,6 @@
+SFML/
+sfml*
+.vs/
+x64/
+bell-windows/
+*.ico
