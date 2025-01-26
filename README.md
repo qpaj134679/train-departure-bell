@@ -1,2 +1,3 @@
 # train-departure-bell
-A system that automatically plays the departure bell according to the mechanical switch.
+A simple system that automatically plays the departure bell according to the mechanical switch.
+The system consists of a Windows program and an STM32 program working together. The STM32 program is responsible for acquiring the status of mechanical switches and sending the status to the Windows program. Based on user-selected routes, stations, and other information, the Windows program plays the specified background music (BGM) upon receiving data from the microcontroller. The Windows program is recorded on the `master` branch, while the STM32 program is on the `origin/stm32-dev` branch.
