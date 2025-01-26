@@ -32,14 +32,19 @@ PS: For information on the audio formats supported by the program, please see th
 4. Replace the "utils.h" -> define field with the field that suits you.
 
 > CONFIG_PATH 	--- 	Reserved Fields
+
 > LOG_PATH 		---	log file path(wstring)
+
 > OFF_PATH		---	The audio that plays after the user clicks the close button. like "２番線のドアが閉まります。ご注意ください。"
+
 > PATH			---	data file(wstring)
+
 > CODE_PAGE		---	Code page to use in performing the conversion(wstring <-> string). If you don't understand, you can try **CP_ACP.**
 
 5. Replace the "STM_IO.h" -> define field with the field that suits you.
 
 > BAUD_RATE		---	Microcontroller Serial Port Baud Rate
+
 > COM_NAME		---	Device Name for Serical Communication
 
 6. Compile, build, run.
